@@ -16,6 +16,10 @@ app.get('/login', (req, res) => {
     res.send('<h1> PLEASE LOGIN AT OUR WEBSITE <h1>');
 })
 
+app.get('/shayan', (req, res) => {
+    res.send('currently your directory is shayan')
+})
+
 app.get('/fun', (req, res) => {
     res.send('<h2>SHAYAN AQUDAS<h2>');
 })
