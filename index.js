@@ -16,7 +16,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/fun', (req, res) => {
-    res.send('<h2>SHAYAN <br> AQUDAS<h2>');
+    res.send('<h2>SHAYAN AQUDAS<h2>');
 })
 
 
