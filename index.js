@@ -5,6 +5,7 @@ const port = 4000
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
+    res.send('kya baat hai guys')
 })
 
 app.get('/twitter', (req, res) => {
